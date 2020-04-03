@@ -1,10 +1,13 @@
 import React from 'react';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import NavBar from 'react-bootstrap/NavBar';
 import Nav from 'react-bootstrap/Nav';
 
 import './App.css';
+
+import Footer from './components/Footer';
 
 class App extends React.Component {
 
@@ -37,7 +40,7 @@ class App extends React.Component {
             <Container className="p-0" fluid={true}>
                 <NavBar className="border-bottom" bg="transparent" expand="lg">
                     <NavBar.Brand>Vivi Nguyen</NavBar.Brand>
-                    <NavBar.Toggle aria-controls="navbar-toggle"/>
+                    <NavBar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                     <NavBar.Collapse id="navbar-toggle">
                         <Nav className="ml-auto">
                             <Link className="nav-link" to="/">Home</Link>
@@ -46,6 +49,8 @@ class App extends React.Component {
                         </Nav>
                     </NavBar.Collapse>
                 </NavBar>
+
+                <Footer />
             </Container>
 
         </Router>
