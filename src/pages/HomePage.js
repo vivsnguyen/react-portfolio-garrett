@@ -7,7 +7,9 @@ function HomePage(props) {
 
     return(
         <div>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            <div className="justify-content-center">
+                <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+            </div>
             <Carousel />
         </div>
     );
