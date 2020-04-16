@@ -41,7 +41,7 @@ class App extends React.Component {
         <Router>
             <Container className="p-0" fluid={true}>
                 <NavBar className="border-bottom" bg="transparent" expand="lg">
-                    <NavBar.Brand>Vivi Nguyen</NavBar.Brand>
+                    {/* <NavBar.Brand>Vivi Nguyen</NavBar.Brand> */}
                     <NavBar.Toggle className="border-0" aria-controls="navbar-toggle"/>
                     <NavBar.Collapse id="navbar-toggle">
                         <Nav className="ml-auto">
