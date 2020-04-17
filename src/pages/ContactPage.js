@@ -11,7 +11,7 @@ function ContactPage(props) {
             <Content>
             <a href="https://www.linkedin.com/in/thuyvi-nguyen/">LinkedIn</a>
 
-            email : vivipnguyen@gmail.com
+            <p>email : vivipnguyen@gmail.com</p>
             </Content>
         </div>
     );
