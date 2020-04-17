@@ -9,7 +9,9 @@ function ContactPage(props) {
             <Hero title={props.title} />
 
             <Content>
-                <p>Hello</p>
+            <a href="https://www.linkedin.com/in/thuyvi-nguyen/">LinkedIn</a>
+
+            email : vivipnguyen@gmail.com
             </Content>
         </div>
     );
