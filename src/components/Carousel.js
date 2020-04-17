@@ -2,9 +2,9 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
 import playlistify from '../assets/images/Playlistify.png';
 import github from '../assets/images/GitHub.png';
+import devpost from '../assets/images/DevPost.png';
 // image dimensions 1000 px by 1600 px tall
 
 import Container from 'react-bootstrap/Container';
@@ -34,10 +34,10 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: devgrub,
-                    link: 'https://github.com',
+                    title: 'DevPost',
+                    subTitle: "My hackathon portfolio",
+                    imgSrc: devpost,
+                    link: 'https://devpost.com/vivsnguyen',
                     selected: false
                 },
             ]
