@@ -27,7 +27,7 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: "Vivi's GitHub",
-                    subTitle: 'More projects here',
+                    subTitle: 'More projects here.',
                     imgSrc: github,
                     link: 'https://github.com/vivsnguyen/',
                     selected: false   
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'DevPost',
-                    subTitle: "My hackathon portfolio",
+                    subTitle: "My hackathon portfolio.",
                     imgSrc: devpost,
                     link: 'https://devpost.com/vivsnguyen',
                     selected: false
