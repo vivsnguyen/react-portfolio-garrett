@@ -43,14 +43,18 @@
   margin-top: 20px;
   display: flex;
   bottom: 60px;
+
+  color: black;
 }
 .social i
 {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  /* color: #9a9b9c; */
+  color: black;
 }
 .social i:hover
 {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
 }
